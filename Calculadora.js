@@ -36,7 +36,7 @@ while(letra!=="SALIR"){
         default:
             alert("el valor ingresado no es correcto")
             break;
-    
+    //en vez de usar un break para parar el blucle while volvemos preguntar.
     }
     letra=prompt("Ingrese una letra:\n'a'-para sumar\n'b'-para restar\n'c'-para multiplicar\n'd'-para dividir,\npara salir de la operacion ingrese-'salir'").toUpperCase();   
 }
